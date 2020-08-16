@@ -31,7 +31,7 @@ a:hover {
 /*scroll*/
 .scroll{
   position: absolute;
-  top: 650px;
+  top: 680px;
   left: 50%;
   z-index: 2;
   display: inline-block;
@@ -96,6 +96,10 @@ header nav ul li a:visited {
 header nav ul li a:hover {
     color: #888;
 }
+.small-catch{
+	margin-left: 0px;
+}
+
 
 /* footer */
 footer {
@@ -190,11 +194,12 @@ main ul {
 
 /* home */
 .home main .visual {
-    background: url(../images/visual.jpg) no-repeat center top;
+    background: url("../images/eric-han-WJ6fmN1D-h0-unsplash.jpg") no-repeat center top;
     height: 470px;
 	max-width: 100%;
     padding: 200px 50px 50px;;
 	background-size: cover;
+	margin-bottom: 90px;
 }
 .home main .visual p {
     color: #7f6666;
